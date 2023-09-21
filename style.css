@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #fff;
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left-menu {
+    color: #5a5a5a;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
